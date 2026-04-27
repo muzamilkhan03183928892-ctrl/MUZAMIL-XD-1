@@ -1,0 +1,21 @@
+{
+  "name": "MUZAMIL-XD",
+  "description": "MUZAMIL-XD WhatsApp bot made by Rubab Muzamil official",
+  "logo": "https://ibb.co/ymzhC8LZ",
+  "keywords": ["Rubab","MUZAMIL-XD","Muzamil-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the MUZAMIL-XD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
